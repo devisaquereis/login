@@ -15,14 +15,15 @@ body{
     align-items: center;
     font-family: Rubik, sans-serif;
     min-height: 100vh;
+    min-width: 100vw;
     background-size: cover;
     background-position: center;
 
 }
 
 main.container{
-    min-width: 300px;
-    max-width: 450px;
+    max-width: 500px;
+    width: 70%;
     background-color: transparent;
     border: 2px solid rgba(0, 255, 255, 0.295);
     border-radius: 10px;
