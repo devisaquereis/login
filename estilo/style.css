@@ -19,14 +19,15 @@ body{
 
 }
 
-.container{
+main.container{
     min-width: 300px;
     max-width: 450px;
     background-color: transparent;
     border: 2px solid rgba(0, 255, 255, 0.295);
     border-radius: 10px;
     color: white;
-    padding: 30px 40px;
+    padding: 30px 60px 30px 40px;
+    ;
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
     backdrop-filter: blur(3px);
 
