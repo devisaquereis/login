@@ -123,8 +123,6 @@ button.login{
 button.login:hover{
     background-color: transparent;
     color: aqua;
-    box-shadow: none;
-    border: 2px solid rgba(255, 255, 255, 0.2);
     transition: 0.4s;
 
 }
