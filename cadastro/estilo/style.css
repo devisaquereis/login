@@ -1,0 +1,117 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root{
+    --cor01: aqua;
+
+    --fonte01: Rubik, sans-serif;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: var(--fonte01);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: lightgrey url(imagens/imagem02.jpg) no-repeat center;
+    background-size: cover;
+
+}
+
+main.container{
+    max-width: 500px;
+    width: 70%;
+    border: 2px solid var(--cor01);
+    padding: 20px;
+    background-color: transparent;
+    backdrop-filter: blur(3px);
+    text-align: center;
+    border-radius: 15px;
+
+}
+
+h1{
+    padding-bottom: 20px;
+    color: var(--cor01);
+
+}
+
+div.input-box{
+    position: relative;
+    margin: 20px 0px;
+    height: 50px;
+    
+
+}
+
+.input-box input{
+    height: 100%;
+    width: 100%;
+    padding: 10px 20px;
+    background-color: transparent;
+    color: white;
+    border-radius: 30px;
+    outline: none;
+    border: 1px solid var(--cor01);
+
+
+}
+
+.input-box input::placeholder{
+    color: white;
+    
+}
+
+.input-box i{
+    color: white;
+    position: absolute;
+    right: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+
+}
+
+.termos{
+    margin: 20px 30px;
+    color: white;
+
+}
+
+.termos label input{
+    accent-color: var(--cor01);
+    margin-right: 3px;
+
+}
+
+
+.cadastro{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 255, 255, 0.800);
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px var(--cor01);
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold
+
+}
+
+.cadastro:hover{
+    background-color: transparent;
+    color: var(--cor01);
+    transition: 0.4s;
+
+}
